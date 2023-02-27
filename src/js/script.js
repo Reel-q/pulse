@@ -31,7 +31,6 @@ $(document).ready(function(){
   };
   toggleSlide('.catalog-item__link');
   toggleSlide('.catalog-item__back');
-<<<<<<< HEAD
   
   //Modal
 
@@ -48,7 +47,5 @@ $(document).ready(function(){
       $('.overlay, #order').fadeIn('slow');
     })
   });
-=======
->>>>>>> b9a45a2da2dcec073004418335fb374fa80a7af9
 });
 
