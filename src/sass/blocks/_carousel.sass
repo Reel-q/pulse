@@ -1,0 +1,39 @@
+.carousel
+    padding: 108px 0
+    &__inner
+        position: relative
+        max-width: 750px
+        margin: 0 auto
+        .slick-dots
+            margin-top: 10px
+            font-size: 0
+            padding: 0
+            button
+                width: 20px
+                height: 20px
+                border-radius: 100%
+                margin-left: 5px
+                border: none
+        .slick-active>button
+            background-color: red
+        img
+            width: 100%
+    .slick-prev, .slick-next
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: -66px
+        border: none
+        background-color: #fff
+        img
+            width: 31px
+            height: 50px
+    .slick-next
+        left: auto
+        right: -66px
+    .slick-track
+        display: flex
+        align-items: center
+    .slick-dots
+        display: flex
+        justify-content: center
